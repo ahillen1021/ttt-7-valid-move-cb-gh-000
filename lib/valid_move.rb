@@ -1,6 +1,6 @@
 def valid_move?(board, index)
   #!(board.position_taken?) &&
-  index.between?(0,8) && !(position_taken?)
+  index.between?(0,8) && !(board.position_taken?)
 end
 
 def position_taken?(board, index)
